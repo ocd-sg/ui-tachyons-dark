@@ -1,0 +1,31 @@
+{
+  "name": "ui-tachyons-dark",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.css",
+  "scripts": {
+    "dev": "npm run build:watch | npm run serve",
+    "build:lib": "postcss src/index.css --use postcss-import postcss-cssnext --no-map --output dist/index.css",
+    "build:watch": "npm run build:lib -- --watch",
+    "serve": "live-server --port=9000 --no-browser"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ocd-sg/ui-tachyons-dark.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ocd-sg/ui-tachyons-dark/issues"
+  },
+  "homepage": "https://github.com/ocd-sg/ui-tachyons-dark#readme",
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "postcss": "^6.0.13",
+    "postcss-cli": "^4.1.1",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^11.0.0",
+    "tachyons": "^4.8.1",
+    "tachyons-svg": "^1.0.1"
+  }
+}
