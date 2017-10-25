@@ -339,6 +339,6 @@
 .text-reversed-025 { color: var(--text-reversed-025); }
 .text-reversed-0125 { color: var(--text-reversed-0125); }
 
-.f8 {
-  font-size: 0.625.rem;
-}
+/* misc extensions*/
+.f8 { font-size: 0.625.rem; }
+.sr-crispedges { shape-rendering: crispEdges; }
