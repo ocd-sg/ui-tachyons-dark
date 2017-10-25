@@ -5,7 +5,8 @@
   "main": "dist/index.css",
   "scripts": {
     "dev": "",
-    "build": "postcss src/index.css --use postcss-import postcss-cssnext --no-map --output dist/index.css"
+    "build:lib": "postcss src/index.css --use postcss-import postcss-cssnext --no-map --output dist/index.css",
+    "build:watch": "npm run build:lib -- --watch"
   },
   "repository": {
     "type": "git",

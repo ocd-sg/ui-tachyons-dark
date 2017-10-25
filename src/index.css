@@ -3,55 +3,55 @@
 
 /* Let's do colours */
 :root {
-  --foreground: rgb(246, 246, 246);
-  --background: rgb(32, 32, 32);
-  --primary: rgb(38, 133, 191);
-  --error: rgb(240, 68, 30);
+  --foreground: #f6f6f6;
+  --background: #202020;
+  --primary: #2685bf;
+  --error: #f0441e;
 
   --text-normal: var(--foreground);
   --text-reversed: var(--background);
 
-  --foreground-100: color(var(--foreground) alpha(100%));
-  --foreground-90: color(var(--foreground) alpha(90%));
-  --foreground-80: color(var(--foreground) alpha(80%));
-  --foreground-70: color(var(--foreground) alpha(70%));
-  --foreground-60: color(var(--foreground) alpha(60%));
-  --foreground-50: color(var(--foreground) alpha(50%));
-  --foreground-40: color(var(--foreground) alpha(40%));
-  --foreground-30: color(var(--foreground) alpha(30%));
-  --foreground-20: color(var(--foreground) alpha(20%));
-  --foreground-10: color(var(--foreground) alpha(10%));
-  --foreground-05: color(var(--foreground) alpha(5%));
-  --foreground-025: color(var(--foreground) alpha(2.5%));
-  --foreground-0125: color(var(--foreground) alpha(1.25%));
+  --foreground-100: color(var(--foreground) shade(0%));
+  --foreground-90: color(var(--foreground) shade(10%));
+  --foreground-80: color(var(--foreground) shade(20%));
+  --foreground-70: color(var(--foreground) shade(30%));
+  --foreground-60: color(var(--foreground) shade(40%));
+  --foreground-50: color(var(--foreground) shade(50%));
+  --foreground-40: color(var(--foreground) shade(60%));
+  --foreground-30: color(var(--foreground) shade(70%));
+  --foreground-20: color(var(--foreground) shade(80%));
+  --foreground-10: color(var(--foreground) shade(90%));
+  --foreground-05: color(var(--foreground) shade(95%));
+  --foreground-025: color(var(--foreground) shade(97.5%));
+  --foreground-0125: color(var(--foreground) shade(98.75%));
 
-  --background-100: color(var(--background) alpha(100%));
-  --background-90: color(var(--background) alpha(90%));
-  --background-80: color(var(--background) alpha(80%));
-  --background-70: color(var(--background) alpha(70%));
-  --background-60: color(var(--background) alpha(60%));
-  --background-50: color(var(--background) alpha(50%));
-  --background-40: color(var(--background) alpha(40%));
-  --background-30: color(var(--background) alpha(30%));
-  --background-20: color(var(--background) alpha(20%));
-  --background-10: color(var(--background) alpha(10%));
-  --background-05: color(var(--background) alpha(5%));
-  --background-025: color(var(--background) alpha(2.5%));
-  --background-0125: color(var(--background) alpha(1.25%));
+  --background-100: color(var(--background) tint(0%));
+  --background-90: color(var(--background) tint(10%));
+  --background-80: color(var(--background) tint(20%));
+  --background-70: color(var(--background) tint(30%));
+  --background-60: color(var(--background) tint(40%));
+  --background-50: color(var(--background) tint(50%));
+  --background-40: color(var(--background) tint(60%));
+  --background-30: color(var(--background) tint(70%));
+  --background-20: color(var(--background) tint(80%));
+  --background-10: color(var(--background) tint(90%));
+  --background-05: color(var(--background) tint(95%));
+  --background-025: color(var(--background) tint(97.5%));
+  --background-0125: color(var(--background) tint(98.75%));
 
-  --primary-100: color(var(--primary) alpha(100%));
-  --primary-90: color(var(--primary) alpha(90%));
-  --primary-80: color(var(--primary) alpha(80%));
-  --primary-70: color(var(--primary) alpha(70%));
-  --primary-60: color(var(--primary) alpha(60%));
-  --primary-50: color(var(--primary) alpha(50%));
-  --primary-40: color(var(--primary) alpha(40%));
-  --primary-30: color(var(--primary) alpha(30%));
-  --primary-20: color(var(--primary) alpha(20%));
-  --primary-10: color(var(--primary) alpha(10%));
-  --primary-05: color(var(--primary) alpha(5%));
-  --primary-025: color(var(--primary) alpha(2.5%));
-  --primary-0125: color(var(--primary) alpha(1.25%));
+  --primary-100: color(var(--primary) shade(0%));
+  --primary-90: color(var(--primary) shade(10%));
+  --primary-80: color(var(--primary) shade(20%));
+  --primary-70: color(var(--primary) shade(30%));
+  --primary-60: color(var(--primary) shade(40%));
+  --primary-50: color(var(--primary) shade(50%));
+  --primary-40: color(var(--primary) shade(60%));
+  --primary-30: color(var(--primary) shade(70%));
+  --primary-20: color(var(--primary) shade(80%));
+  --primary-10: color(var(--primary) shade(90%));
+  --primary-05: color(var(--primary) shade(95%));
+  --primary-025: color(var(--primary) shade(97.5%));
+  --primary-0125: color(var(--primary) shade(98.75%));
 
   --error-100: color(var(--error) alpha(100%));
   --error-90: color(var(--error) alpha(90%));
@@ -67,33 +67,33 @@
   --error-025: color(var(--error) alpha(2.5%));
   --error-0125: color(var(--error) alpha(1.25%));
 
-  --text-normal-100: color(var(--text-normal) alpha(100%));
-  --text-normal-90: color(var(--text-normal) alpha(90%));
-  --text-normal-80: color(var(--text-normal) alpha(80%));
-  --text-normal-70: color(var(--text-normal) alpha(70%));
-  --text-normal-60: color(var(--text-normal) alpha(60%));
-  --text-normal-50: color(var(--text-normal) alpha(50%));
-  --text-normal-40: color(var(--text-normal) alpha(40%));
-  --text-normal-30: color(var(--text-normal) alpha(30%));
-  --text-normal-20: color(var(--text-normal) alpha(20%));
-  --text-normal-10: color(var(--text-normal) alpha(10%));
-  --text-normal-05: color(var(--text-normal) alpha(5%));
-  --text-normal-025: color(var(--text-normal) alpha(2.5%));
-  --text-normal-0125: color(var(--text-normal) alpha(1.25%));
+  --text-normal-100: color(var(--text-normal) shade(0%));
+  --text-normal-90: color(var(--text-normal) shade(10%));
+  --text-normal-80: color(var(--text-normal) shade(20%));
+  --text-normal-70: color(var(--text-normal) shade(30%));
+  --text-normal-60: color(var(--text-normal) shade(40%));
+  --text-normal-50: color(var(--text-normal) shade(50%));
+  --text-normal-40: color(var(--text-normal) shade(60%));
+  --text-normal-30: color(var(--text-normal) shade(70%));
+  --text-normal-20: color(var(--text-normal) shade(80%));
+  --text-normal-10: color(var(--text-normal) shade(90%));
+  --text-normal-05: color(var(--text-normal) shade(95%));
+  --text-normal-025: color(var(--text-normal) shade(97.5%));
+  --text-normal-0125: color(var(--text-normal) shade(98.75%));
 
-  --text-reversed-100: color(var(--text-reversed) alpha(100%));
-  --text-reversed-90: color(var(--text-reversed) alpha(90%));
-  --text-reversed-80: color(var(--text-reversed) alpha(80%));
-  --text-reversed-70: color(var(--text-reversed) alpha(70%));
-  --text-reversed-60: color(var(--text-reversed) alpha(60%));
-  --text-reversed-50: color(var(--text-reversed) alpha(50%));
-  --text-reversed-40: color(var(--text-reversed) alpha(40%));
-  --text-reversed-30: color(var(--text-reversed) alpha(30%));
-  --text-reversed-20: color(var(--text-reversed) alpha(20%));
-  --text-reversed-10: color(var(--text-reversed) alpha(10%));
-  --text-reversed-05: color(var(--text-reversed) alpha(5%));
-  --text-reversed-025: color(var(--text-reversed) alpha(2.5%));
-  --text-reversed-0125: color(var(--text-reversed) alpha(1.25%));
+  --text-reversed-100: color(var(--text-reversed) tint(0%));
+  --text-reversed-90: color(var(--text-reversed) tint(10%));
+  --text-reversed-80: color(var(--text-reversed) tint(20%));
+  --text-reversed-70: color(var(--text-reversed) tint(30%));
+  --text-reversed-60: color(var(--text-reversed) tint(40%));
+  --text-reversed-50: color(var(--text-reversed) tint(50%));
+  --text-reversed-40: color(var(--text-reversed) tint(60%));
+  --text-reversed-30: color(var(--text-reversed) tint(70%));
+  --text-reversed-20: color(var(--text-reversed) tint(80%));
+  --text-reversed-10: color(var(--text-reversed) tint(90%));
+  --text-reversed-05: color(var(--text-reversed) tint(95%));
+  --text-reversed-025: color(var(--text-reversed) tint(97.5%));
+  --text-reversed-0125: color(var(--text-reversed) tint(98.75%));
 }
 
 .foreground { color: var(--foreground); }
@@ -138,6 +138,34 @@
 .b--foreground-05 { border-color: var(--foreground-05); }
 .b--foreground-025 { border-color: var(--foreground-025); }
 .b--foreground-0125 { border-color: var(--foreground-0125); }
+.fill-foreground { fill: var(--foreground); }
+.fill-foreground-100 { fill: var(--foreground-100); }
+.fill-foreground-90 { fill: var(--foreground-90); }
+.fill-foreground-80 { fill: var(--foreground-80); }
+.fill-foreground-70 { fill: var(--foreground-70); }
+.fill-foreground-60 { fill: var(--foreground-60); }
+.fill-foreground-50 { fill: var(--foreground-50); }
+.fill-foreground-40 { fill: var(--foreground-40); }
+.fill-foreground-30 { fill: var(--foreground-30); }
+.fill-foreground-20 { fill: var(--foreground-20); }
+.fill-foreground-10 { fill: var(--foreground-10); }
+.fill-foreground-05 { fill: var(--foreground-05); }
+.fill-foreground-025 { fill: var(--foreground-025); }
+.fill-foreground-0125 { fill: var(--foreground-0125); }
+.stroke-foreground { stroke: var(--foreground); }
+.stroke-foreground-100 { stroke: var(--foreground-100); }
+.stroke-foreground-90 { stroke: var(--foreground-90); }
+.stroke-foreground-80 { stroke: var(--foreground-80); }
+.stroke-foreground-70 { stroke: var(--foreground-70); }
+.stroke-foreground-60 { stroke: var(--foreground-60); }
+.stroke-foreground-50 { stroke: var(--foreground-50); }
+.stroke-foreground-40 { stroke: var(--foreground-40); }
+.stroke-foreground-30 { stroke: var(--foreground-30); }
+.stroke-foreground-20 { stroke: var(--foreground-20); }
+.stroke-foreground-10 { stroke: var(--foreground-10); }
+.stroke-foreground-05 { stroke: var(--foreground-05); }
+.stroke-foreground-025 { stroke: var(--foreground-025); }
+.stroke-foreground-0125 { stroke: var(--foreground-0125); }
 
 .background { color: var(--background); }
 .background-100 { color: var(--background-100); }
@@ -181,6 +209,34 @@
 .b--background-05 { border-color: var(--background-05); }
 .b--background-025 { border-color: var(--background-025); }
 .b--background-0125 { border-color: var(--background-0125); }
+.fill-background { fill: var(--background); }
+.fill-background-100 { fill: var(--background-100); }
+.fill-background-90 { fill: var(--background-90); }
+.fill-background-80 { fill: var(--background-80); }
+.fill-background-70 { fill: var(--background-70); }
+.fill-background-60 { fill: var(--background-60); }
+.fill-background-50 { fill: var(--background-50); }
+.fill-background-40 { fill: var(--background-40); }
+.fill-background-30 { fill: var(--background-30); }
+.fill-background-20 { fill: var(--background-20); }
+.fill-background-10 { fill: var(--background-10); }
+.fill-background-05 { fill: var(--background-05); }
+.fill-background-025 { fill: var(--background-025); }
+.fill-background-0125 { fill: var(--background-0125); }
+.stroke-background { stroke: var(--background); }
+.stroke-background-100 { stroke: var(--background-100); }
+.stroke-background-90 { stroke: var(--background-90); }
+.stroke-background-80 { stroke: var(--background-80); }
+.stroke-background-70 { stroke: var(--background-70); }
+.stroke-background-60 { stroke: var(--background-60); }
+.stroke-background-50 { stroke: var(--background-50); }
+.stroke-background-40 { stroke: var(--background-40); }
+.stroke-background-30 { stroke: var(--background-30); }
+.stroke-background-20 { stroke: var(--background-20); }
+.stroke-background-10 { stroke: var(--background-10); }
+.stroke-background-05 { stroke: var(--background-05); }
+.stroke-background-025 { stroke: var(--background-025); }
+.stroke-background-0125 { stroke: var(--background-0125); }
 
 .primary { color: var(--primary); }
 .primary-100 { color: var(--primary-100); }
@@ -224,3 +280,65 @@
 .b--primary-05 { border-color: var(--primary-05); }
 .b--primary-025 { border-color: var(--primary-025); }
 .b--primary-0125 { border-color: var(--primary-0125); }
+.fill-primary { fill: var(--primary); }
+.fill-primary-100 { fill: var(--primary-100); }
+.fill-primary-90 { fill: var(--primary-90); }
+.fill-primary-80 { fill: var(--primary-80); }
+.fill-primary-70 { fill: var(--primary-70); }
+.fill-primary-60 { fill: var(--primary-60); }
+.fill-primary-50 { fill: var(--primary-50); }
+.fill-primary-40 { fill: var(--primary-40); }
+.fill-primary-30 { fill: var(--primary-30); }
+.fill-primary-20 { fill: var(--primary-20); }
+.fill-primary-10 { fill: var(--primary-10); }
+.fill-primary-05 { fill: var(--primary-05); }
+.fill-primary-025 { fill: var(--primary-025); }
+.fill-primary-0125 { fill: var(--primary-0125); }
+.stroke-primary { stroke: var(--primary); }
+.stroke-primary-100 { stroke: var(--primary-100); }
+.stroke-primary-90 { stroke: var(--primary-90); }
+.stroke-primary-80 { stroke: var(--primary-80); }
+.stroke-primary-70 { stroke: var(--primary-70); }
+.stroke-primary-60 { stroke: var(--primary-60); }
+.stroke-primary-50 { stroke: var(--primary-50); }
+.stroke-primary-40 { stroke: var(--primary-40); }
+.stroke-primary-30 { stroke: var(--primary-30); }
+.stroke-primary-20 { stroke: var(--primary-20); }
+.stroke-primary-10 { stroke: var(--primary-10); }
+.stroke-primary-05 { stroke: var(--primary-05); }
+.stroke-primary-025 { stroke: var(--primary-025); }
+.stroke-primary-0125 { stroke: var(--primary-0125); }
+
+.text-normal { color: var(--text-normal); }
+.text-normal-100 { color: var(--text-normal-100); }
+.text-normal-90 { color: var(--text-normal-90); }
+.text-normal-80 { color: var(--text-normal-80); }
+.text-normal-70 { color: var(--text-normal-70); }
+.text-normal-60 { color: var(--text-normal-60); }
+.text-normal-50 { color: var(--text-normal-50); }
+.text-normal-40 { color: var(--text-normal-40); }
+.text-normal-30 { color: var(--text-normal-30); }
+.text-normal-20 { color: var(--text-normal-20); }
+.text-normal-10 { color: var(--text-normal-10); }
+.text-normal-05 { color: var(--text-normal-05); }
+.text-normal-025 { color: var(--text-normal-025); }
+.text-normal-0125 { color: var(--text-normal-0125); }
+
+.text-reversed { color: var(--text-reversed); }
+.text-reversed-100 { color: var(--text-reversed-100); }
+.text-reversed-90 { color: var(--text-reversed-90); }
+.text-reversed-80 { color: var(--text-reversed-80); }
+.text-reversed-70 { color: var(--text-reversed-70); }
+.text-reversed-60 { color: var(--text-reversed-60); }
+.text-reversed-50 { color: var(--text-reversed-50); }
+.text-reversed-40 { color: var(--text-reversed-40); }
+.text-reversed-30 { color: var(--text-reversed-30); }
+.text-reversed-20 { color: var(--text-reversed-20); }
+.text-reversed-10 { color: var(--text-reversed-10); }
+.text-reversed-05 { color: var(--text-reversed-05); }
+.text-reversed-025 { color: var(--text-reversed-025); }
+.text-reversed-0125 { color: var(--text-reversed-0125); }
+
+.f8 {
+  font-size: 0.625.rem;
+}
