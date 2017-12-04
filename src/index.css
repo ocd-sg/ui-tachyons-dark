@@ -340,5 +340,5 @@
 .text-reversed-0125 { color: var(--text-reversed-0125); }
 
 /* misc extensions*/
-.f8 { font-size: 0.625.rem; }
+.f8 { font-size: 0.625rem; }
 .sr-crispedges { shape-rendering: crispEdges; }
