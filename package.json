@@ -4,9 +4,10 @@
   "description": "",
   "main": "dist/index.css",
   "scripts": {
-    "dev": "",
+    "dev": "npm run build:watch | npm run serve",
     "build:lib": "postcss src/index.css --use postcss-import postcss-cssnext --no-map --output dist/index.css",
-    "build:watch": "npm run build:lib -- --watch"
+    "build:watch": "npm run build:lib -- --watch",
+    "serve": "live-server --port=9000 --no-browser"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/ocd-sg/ui-tachyons-dark#readme",
   "devDependencies": {
+    "live-server": "^1.2.0",
     "postcss": "^6.0.13",
     "postcss-cli": "^4.1.1",
     "postcss-cssnext": "^3.0.2",
