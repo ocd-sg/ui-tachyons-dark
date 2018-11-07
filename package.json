@@ -1,5 +1,5 @@
 {
-  "name": "ui-tachyons-dark",
+  "name": "@ocd-sg/ui-tachyons-dark",
   "version": "0.1.0",
   "description": "",
   "main": "dist/index.css",
